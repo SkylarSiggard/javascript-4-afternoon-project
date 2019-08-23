@@ -19,16 +19,19 @@
 */
 
 
-let user = {
-  username: ''
-}
+// let user = {
+//   username = 'aName',
+//   email = 'aEmail'
+// }
+
 
 
 
 ////////// PROBLEM 2 //////////
 
 /*
- Below we have the class Animal.  The eat method is using the "this" keyword.  Use the "new" keyword to assign context to "this", and save the instance to a variable named animal1.  You can pass anything you want in for name, species and food.
+ Below we have the class Animal.  The eat method is using the "this" keyword.  Use the "new" keyword to assign context to "this", and save the instance to a variable named animal1.  
+ You can pass anything you want in for name, species and food.
 */
 
 class Animal {
@@ -43,7 +46,7 @@ class Animal {
   }
 }
 
-//Code Here
+
 
 
 

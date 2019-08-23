@@ -99,9 +99,24 @@ class ProgressiveManager extends Manager {
     this.title = 'Not a manager'
     this.bonus = 0
   }
-  
-  
-
+  hire() {
+    super.hire() 
+    let reports = this.reports.length
+    if (this.reports === 0) {
+      this.title = 'Not a manager' 
+    } else if (reports >= 1 && reports <= 3) {
+      this.title = 'Barely Manager'
+    } else if (reports >= 4 && reports <= 10) {
+      this.title = 'Mostly Manager'
+    } else if (reports >= 11 && reports <= 50) {
+      this.title = 'Manager'
+    } else if (reports >= 51 && reports <= 100) {
+      this.title = 'Manager Plus' 
+    } else if (reports > 100) {
+      this.title = 'Bestest Manager'
+    }
+    
+  }
 }
 
 
