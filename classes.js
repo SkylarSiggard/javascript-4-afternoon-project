@@ -115,7 +115,6 @@ class ProgressiveManager extends Manager {
     } else if (reports > 100) {
       this.title = 'Bestest Manager'
     }
-    
   }
 }
 
