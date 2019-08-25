@@ -116,6 +116,10 @@ class ProgressiveManager extends Manager {
       this.title = 'Bestest Manager'
     }
   }
+  fire() {
+    super.fire()
+    this.bonus += 100
+  }
 }
 
 
